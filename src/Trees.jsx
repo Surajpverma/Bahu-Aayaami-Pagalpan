@@ -9,7 +9,7 @@ export function Trees() {
     if(!gltf) return;
 
     let mesh = gltf.scene.children[0];
-    mesh.material.envMapIntensity = 2.5;
+    mesh.material.envMapIntensity = 3.5;
   }, [gltf]);
 
   return (
